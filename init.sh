@@ -1,6 +1,9 @@
 #!/bin/bash
 
+# replace this path with the one corresponding to your conky config directory 
 conkydir="$HOME/.config/conky"
+
+
 baseurl="https://apod.nasa.gov/apod/"
 logfile="$conkydir/logs/$(date +'%Y%m%d%H%M%S').log"
 mkdir -p "$conkydir/logs"
