@@ -13,5 +13,5 @@ exec &> "$logfile"
 imageurl=$(curl $baseurl | grep "<a href=\"image" | grep -oP '[0-9]+\/\w+.\w+')
 curl -o "$conkydir/img/image.jpg" "$baseurl/image/$imageurl"
 
-conky --daemonize --xinerama-head=2 --config="$conkydir/conky.conf"
-conky --daemonize --xinerama-head=2 --config="$conkydir/time.conf"
+conky --daemonize --xinerama-head=1 --config="$conkydir/conky.conf"
+conky --daemonize --xinerama-head=1 --config="$conkydir/time.conf"
