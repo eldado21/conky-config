@@ -20,6 +20,7 @@ This (kinda) automated conky config displays 2 windows with various system infor
 - Install [conky](https://github.com/brndnmtthws/conky?tab=readme-ov-file#installing-conky)
 - Download the [Dina-Font-TTF-Remastered](https://github.com/zshoals/Dina-Font-TTF-Remastered) font. (adapt the font names inside all `.conf` files if needed)
 - (Optional) adapt the last `cut` command inside the `procinfo.sh` script to display correctly the name of your CPU
+- Install [calcurse](https://github.com/lfos/calcurse) for the calendar feature
 
 ### How to setup
 
